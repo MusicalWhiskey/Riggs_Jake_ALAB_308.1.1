@@ -63,3 +63,34 @@ const secondResult = firstResult * n3;
 const thirdResult = secondResult / n4;
 console.log("The Answer Is", thirdResult);
 
+let speed1MPG = 30;
+let speed2MPG = 28;
+let speed3MPG = 23;
+
+let speed1MPH = 55;
+let speed2MPH = 60;
+let speed3MPH = 75;
+
+
+let budget = 175;
+let gasGallon = 3;
+
+let distance = 1500;
+
+if (speed1MPG * (budget/gasGallon) >= distance) {
+  console.log("You\'ll need", distance/speed1MPG, "Gallons.", 'You\'ll make it in', distance/speed1MPH, "hours")
+} else {
+  console.log("You won't make it")
+}
+
+if (speed2MPG * (budget/gasGallon) >= distance) {
+  console.log("You\'ll need", distance/speed2MPG, "Gallons.", 'You\'ll make it in', distance/speed2MPH, "hours")
+} else {
+  console.log("You won't make it")
+}
+
+if (speed3MPG * (budget/gasGallon) >= distance) {
+  console.log("You\'ll need", distance/speed3MPG, "Gallons.", 'You\'ll make it in', distance/speed3MPH, "hours")
+} else {
+  console.log("You won't make it")
+}
